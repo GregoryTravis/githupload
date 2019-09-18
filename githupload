@@ -1,0 +1,5 @@
+name=$1
+desc=$2
+echo name $name
+echo desc $desc
+hub create $name -d "$desc"

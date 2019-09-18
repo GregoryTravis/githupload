@@ -2,4 +2,10 @@ name=$1
 desc=$2
 echo name $name
 echo desc $desc
-hub create $name -d "$desc"
+cp -n ~/githupload/README.md-template ./README.md
+vi README.md
+git add README.md
+git commit -a -m "readme"
+#git remote remove origin
+#hub create $name -d "$desc"
+#git push --set-upstream origin master

@@ -8,4 +8,4 @@ git add README.md
 git commit -a -m "readme"
 ##git remote remove origin
 #hub create $name -d "$desc"
-#git push --set-upstream origin master
+git push --set-upstream origin master
